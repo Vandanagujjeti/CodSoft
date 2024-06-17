@@ -72,6 +72,11 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+
+
+
+
 #password_generator.py
 
 import random
@@ -102,6 +107,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
 
 #rock_papper_scissors_game.py
 
@@ -139,7 +150,7 @@ def main():
     while True:
         play_game()
         play_again = input("Do you want to play again? (y/n): ").lower()
-        if play_again != "y":
+        if play_again != "yes":
             break
 
 def play_game(user_score, computer_score):
@@ -161,7 +172,7 @@ def main():
     while True:
         user_score, computer_score = play_game(user_score, computer_score)
         play_again = input("Do you want to play again? (y/n): ").lower()
-        if play_again != "y":
+        if play_again != "yes":
             break
 
 if __name__ == "__main__":
