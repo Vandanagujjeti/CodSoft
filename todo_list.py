@@ -64,7 +64,7 @@ def main():
             task_number = input("Enter the task number to delete: ")
             todo.delete_task(task_number)
         elif choice == "5":
-            print("Goodbye!")
+            print("Have a great day, Goodbye!")
             break
         else:
             print("Invalid option. Please choose again.")
